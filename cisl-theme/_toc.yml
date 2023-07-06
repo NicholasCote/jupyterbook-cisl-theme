@@ -1,0 +1,16 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: index
+parts:
+  - chapters:
+    - file: examples/main
+  - caption: Examples
+    chapters:
+      - title: Notebook Basics
+        file: examples/example1
+      - title: Running Code
+        file: examples/example2
+      - title: Markdown Cells
+        file: examples/example3
