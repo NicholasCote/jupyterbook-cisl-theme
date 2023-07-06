@@ -20,6 +20,26 @@ The _static directory contains any additional static files or images that should
 
 The _templates directory contains and custom HTML that is going to be used in our site build. The templates used are limited by what the theme is configured to take for input. Since this site is built on the Project Pythia theme it is limited to overriding templates that were used in the Project Pythia build. Documentation on what other templates can be provided can be found on the Pythia Theme documentation [here](https://sphinx-pythia-theme.readthedocs.io/en/latest/about.html#custom-templates).
 
+## Building and Hosting the site
+
+### Install Jupyter Book
+
+Jupyter Book is ultimately a Python package and can be installed via pip or conda/mamba. The Jupyter Book documentation has installation instructions that can be followed [here](https://jupyterbook.org/en/stable/start/overview.html)
+
+### Install the Project Pythia theme
+
+The Project Pythia Sphinx theme is also a Python Package that can be installed via pip. It is included in the cisl-theme/requirements.txt file but also can be installed via 'pip install sphinx-pythia-theme'
+
+### Build the HTML
+
+Once all the content is laid out HTML files can be generated to run and host the content. In the command line, at the root of the documentation (/cisl-theme/), run 'jupyter-book build .'. This will create a _build/ directory that contains all the HTML and other files required for the site. 
+
+### Hosting on GitHub Pages
+If GitHub pages is going to be used to host the content the only files required are going to be in /cisl-theme/_build/html. All the files in the html directory should be copied to the root directory of the gh-pages branch of the repository. Once all the files have been copied over a new file called '.nojekyll' needs to be added. This file is empty and only provides the name. This is for GitHub pages to bypass applying any jekyll processing. The site provided has everything it needs to serve content. 
+
+### Other hosting options
+More information on publishing books online can be found on the Jupyter Book documentation site [here](https://jupyterbook.org/en/stable/start/publish.html).
+
 ## Changes made specifically for CISL
 
 The changes made to tailor this theme for CISL were mostly made to HTML and CSS files. 
