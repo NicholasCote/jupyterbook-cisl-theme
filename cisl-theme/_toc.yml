@@ -11,6 +11,6 @@ parts:
       - title: Notebook Basics
         file: examples/example1
       - title: Running Code
-        file: examples/example2
+        file: examples/example2-dont-run
       - title: Markdown Cells
         file: examples/example3
