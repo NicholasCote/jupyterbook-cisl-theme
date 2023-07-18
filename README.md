@@ -1,5 +1,7 @@
 # Template for Jupyter Book with CISL like theme
 
+['Example Site']('https://nicholascote.github.io/jupyterbook-cisl-theme/')
+
 This is not a custom Sphinx theme. This is a customization of the Project Pythia Sphinx theme and credit goes to the Project Pythia team for putting together a really great looking Sphinx theme that allows for further customization. 
 
 ## Jupyter Book basics
