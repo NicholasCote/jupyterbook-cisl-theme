@@ -39,6 +39,8 @@ Once all the content is laid out HTML files can be generated to run and host the
 ### Hosting on GitHub Pages
 If GitHub pages is going to be used to host the content the only files required are going to be in /cisl-theme/_build/html. All the files in the html directory should be copied to the root directory of the gh-pages branch of the repository. Once all the files have been copied over a new file called '.nojekyll' needs to be added. This file is empty and only provides the name. This is for GitHub pages to bypass applying any jekyll processing. The site provided has everything it needs to serve content. 
 
+This can also be accomplished programmatically with [`ghp-import`](https://github.com/c-w/ghp-import)
+
 ### Other hosting options
 More information on publishing books online can be found on the Jupyter Book documentation site [here](https://jupyterbook.org/en/stable/start/publish.html).
 
