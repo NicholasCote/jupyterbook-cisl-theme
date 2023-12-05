@@ -1,4 +1,4 @@
-name: Cloud Docs CI/CD 
+name: CISL Docs CI/CD 
 
 on:
   push:
