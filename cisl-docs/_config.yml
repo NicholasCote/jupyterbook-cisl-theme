@@ -3,7 +3,7 @@
 
 title: CISL Theme for JupyterBook
 author: Nick Cote
-logo: images/CISL-contemp-logo-blue.png
+logo: images/NSF-NCAR.png
 email: "ncote@ucar.edu"
 
 # Force re-execution of notebooks on each build.
