@@ -23,6 +23,9 @@ jobs:
           pip install jupyter-book
           pip install sphinx_pythia_theme
           PATH="${PATH}:${HOME}/.local/bin"
+      - name: Show Sphinx versions
+        run: |
+          pip freeze |grep -i sphinx
       - name: Build book HTML
         run: |
           jupyter-book build cisl-docs/.
