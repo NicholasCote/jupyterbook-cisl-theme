@@ -1,6 +1,6 @@
 # Standalone Pages
 
-Standalone pages are another great way to break out of a pure documentation site and provide a simplified page. The sidebar table of contents navigation is removed in the `_config.yml` file with the following:
+Standalone pages are another great way to break out of a pure documentation site and provide a simplified page to users. The sidebar table of contents navigation is removed in the `_config.yml` file with the following:
 
 ```
    sphinx:
